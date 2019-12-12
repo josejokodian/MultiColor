@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/frangmentOne">
+
+    <fragment
+        android:id="@+id/frangmentOne"
+        android:name="com.jose.multicolor.FrangmentOne"
+        android:label="fragment_frangment_one"
+        tools:layout="@layout/fragment_frangment_one" >
+        <action
+            android:id="@+id/action_frangmentOne_to_fragmentTwo"
+            app:destination="@id/fragmentTwo" />
+        <action
+            android:id="@+id/action_frangmentOne_to_fragmentThree"
+            app:destination="@id/fragmentThree" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTwo"
+        android:name="com.jose.multicolor.FragmentTwo"
+        android:label="fragment_fragment_two"
+        tools:layout="@layout/fragment_fragment_two" >
+        <action
+            android:id="@+id/action_fragmentTwo_to_fragmentFour"
+            app:destination="@id/fragmentFour" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentThree"
+        android:name="com.jose.multicolor.FragmentThree"
+        android:label="fragment_fragment_three"
+        tools:layout="@layout/fragment_fragment_three" >
+        <action
+            android:id="@+id/action_fragmentThree_to_fragmentFive"
+            app:destination="@id/fragmentFive" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentFour"
+        android:name="com.jose.multicolor.FragmentFour"
+        android:label="fragment_fragment_four"
+        tools:layout="@layout/fragment_fragment_four" />
+    <fragment
+        android:id="@+id/fragmentFive"
+        android:name="com.jose.multicolor.FragmentFive"
+        android:label="fragment_fragment_five"
+        tools:layout="@layout/fragment_fragment_five" />
+</navigation>

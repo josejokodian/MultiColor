@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MultiColor</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragmentthree">Fragment Three</string>
+    <string name="btnFrag">Navigate To Five</string>
+    <string name="btnFragone">Navigate To Two</string>
+    <string name="btn2FragOne">Navigate To Three</string>
+    <string name="txtFragone">Fragment One</string>
+    <string name="txtFragtwo">Fragment Two</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="txtFragmentFour">Fragment Four</string>
+    <string name="txtFragFive">Fragment Five</string>
+
+</resources>
